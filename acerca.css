@@ -1,0 +1,112 @@
+.title{
+    width: 100%;
+	background:rgb(10, 176, 241);
+    height: 200px;
+    
+    display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.title h1{
+	color:#fff;
+	font-size: 50px;
+	font-weight: 200;
+	text-align: center;
+}
+h1{
+    color:#000;
+	font-size: 50px;
+	font-weight: 200;
+	text-align: center;
+
+}
+
+.imag{
+    position: absolute;
+    display: flex;
+    height: 200px;
+    width: 100%;
+}
+.wrapper {
+    width: 80%;
+    margin: auto;
+    overflow:hidden;
+    color:rgb(10, 0, 0);
+    background: rgba(18, 221, 235, 0.856);
+    content: justify;
+}
+
+body{
+    background-color:  #fdfdfde3;
+    overflow: hidden;
+
+}
+
+.img{
+    margin: auto;
+    display: block;
+
+    padding: 40px;
+
+    width: 40%;
+    height: 60%;
+}
+h1{
+    display:block;
+    padding: 0px 0px;
+    color: black;
+    font-family:"Lucida Calligraphy";
+    text-decoration:none;
+    text-align: center;
+}    
+
+footer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+
+    position: absolute;
+    bottom: 0;
+
+    background-color: rgba(41, 115, 212, 0.658);
+    padding: 5px 5px;
+}
+
+footer div.copy{
+    color: rgb(250, 250, 250);
+}
+
+footer div.copy p{
+    padding: 0px 0px;
+    font-size: 20px;
+    
+}
+
+footer div.redes a{
+    padding: 0px 0px;
+    font-size: 20px;
+
+}
+.navegacion{
+    width: 1000px;
+    margin: 30px auto;
+    background: #0ad8f3f6;
+}
+.navegacion ul{
+    list-style: none;
+    text-align: center;
+}
+.menu > li{
+    position: relative; 
+    display: inline-block;
+}
+.menu > li > a{
+    display:block;
+    padding:10px 20px;
+    color: black;
+    font-family:"Lucida Calligraphy";
+    text-decoration:none;
+
+}
